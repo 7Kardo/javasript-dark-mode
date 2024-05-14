@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color:#273746 ;
+    background-color:#EAEDED ;
+    font-family: cursive;
+}
+.dark{
+    color: #EAEDED;
+    background-color: #273746;
+}
+button{
+    background: #B064C3;
+    border: 0px;
+    border-radius: 10px;
+    margin: 0.5rem;
+    cursor: pointer;
+    color: white;
+    font-size: 1.rem;
+}
+
+button:hover{
+transform: scale(1.1);
+transition: 1s;
+}
+.theme{
+   /* float: right;*/
+   position: absolute;
+   top: 0.2rem;
+   right: 0.2rem;
+}
+.theme img{
+    width: 1.5rem;
+}
+.app{
+   position: absolute;
+   top: 0.2rem;
+   left: 0.2rem;
+}
+.app img{
+    width: 4rem;
+}
+.app .app-name{
+ font-size: 1.5rem;
+}
