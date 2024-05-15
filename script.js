@@ -3,6 +3,8 @@ var theme = document.getElementById('theme');
 var body= document.querySelector('body');
 var bg =localStorage.getItem('theme');
 
+
+
 if(bg=='dark'){
    body.classList.toggle('dark');
 }
