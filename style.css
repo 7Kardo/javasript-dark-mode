@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     color:#273746 ;
     background-color:#EAEDED ;
@@ -10,7 +11,7 @@ body{
     color: #EAEDED;
     background-color: #273746;
 }
-button{
+button.theme{
     background: #B064C3;
     border: 0px;
     border-radius: 10px;
@@ -20,7 +21,7 @@ button{
     font-size: 1rem;
 }
 
-button:hover{
+button.theme:hover{
 transform: scale(1.1);
 transition: 1s;
 }
@@ -58,19 +59,36 @@ input{
 input:focus{
     outline: none;
 }
+
 .form{
   box-shadow: 0px 0px 10px 0px;
   padding: 1rem;
   border-radius: 10px;
   text-align: center;
   width: 400px;
-  position: absolute;
-  top: 150%;
-  left: 50%;
+  margin: 10% auto;
+  
 }
-.form button{
+.form .login{
     width: 80%;
     height: 2rem;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    background-color: #17A589 ;
+    color: white;
+    font-size: large;
+    transition: all 0.3s
+
+}
+.form .login:hover{
+  
+    -webkit-box-shadow: inset 7px 13px 47px -19px rgba(7,108,124,0.64);
+    -moz-box-shadow: inset 7px 13px 47px -19px rgba(7,108,124,0.64);
+    box-shadow: inset 7px 13px 47px -19px rgba(7,108,124,0.64);
+}
+.form .login:active{
+      transform: translatey(.1rem);
 }
 .form img{
     margin: auto;
